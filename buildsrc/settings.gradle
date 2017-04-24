@@ -1,0 +1,3 @@
+rootProject.name = 'aop-plugin-build'
+include '::aop-plugin'
+project(":aop-plugin").projectDir = new File("../aop-plugin")
